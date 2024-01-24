@@ -5,6 +5,7 @@ services:
     build:
       context: ./gateway
       dockerfile: dockerfile
+    image: gateway
     container_name: gateway
     ports:
       - '3001:3001'
@@ -17,6 +18,7 @@ services:
     build:
       context: ./microservice
       dockerfile: dockerfile
+    image: microservice
     container_name: microservice
     depends_on:
       - rabbitmq
