@@ -1,0 +1,13 @@
+# Versioning and metadata
+.git
+.gitignore
+.dockerignore
+test
+.prettierrc
+dockerfile
+README.MD
+
+# Build dependencies
+dist
+node_modules
+coverage
